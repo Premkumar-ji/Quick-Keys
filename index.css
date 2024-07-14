@@ -1,14 +1,14 @@
 @font-face {
     font-family: future;
-    src: url(/BIONICKIDSLANTED3D.ttf) format("ttf");
+    src: url(BIONICKIDSLANTED3D.ttf) format("ttf");
 }
 @font-face {
     font-family: future2;
-    src: url(/BIONICKIDSIMPLESLANTED.ttf)  format('ttf');
+    src: url(BIONICKIDSIMPLESLANTED.ttf)  format('ttf');
 }
 @font-face {
     font-family: future3;
-    src: url(/BIONICKIDSIMPLE.ttf)  format('ttf');
+    src: url(BIONICKIDSIMPLE.ttf)  format('ttf');
 }
 * {
     margin: 0;
