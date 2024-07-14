@@ -1,14 +1,14 @@
 @font-face {
     font-family: future;
-    src: url(BIONICKIDSLANTED3D.ttf) format("ttf");
+    src: url(/BIONICKIDSLANTED3D.ttf);
 }
 @font-face {
     font-family: future2;
-    src: url(BIONICKIDSIMPLESLANTED.ttf)  format('ttf');
+    src: url(/BIONICKIDSIMPLESLANTED.ttf);
 }
 @font-face {
     font-family: future3;
-    src: url(BIONICKIDSIMPLE.ttf)  format('ttf');
+    src: url(/BIONICKIDSIMPLE.ttf);
 }
 * {
     margin: 0;
@@ -39,7 +39,7 @@ h2 {
     padding-top: 20px;
     letter-spacing: 10px;
     word-spacing: 30px;
-    font-family: future2;
+    font-family: future;
     font-size: 30px;
     font-weight: 700;
     color: white;
@@ -85,8 +85,8 @@ h2 {
 
 #show_sentence {
     overflow-x: hidden;
-    width: 1200px;
-    height: 650px;
+    width: 1000px;
+    height: 700px;
     padding: 10px 14px;
     color: #222222;
     font-size: 2rem;
@@ -100,12 +100,12 @@ h2 {
 }
 
 #textarea {
-    height: 300px;
-    width: 1000px;
+    height: 250px;
+    width: 900px;
     max-width: 80%;
     min-width: 600px;
     min-height: 200px;
-    margin-left: 100px;
+    margin-left: 00px;
     border-width: 8px;
     border-radius: 4%;
     font-size: 30px;
@@ -139,11 +139,13 @@ button {
     line-height: 2.7rem;
     color: #ffffff;
     position: absolute;
-    top: 50%;
-    left: 80%;
+    top: 55%;
+    left: 75%;
     width: 350px;
     height: 300px;
     background: rgba(11, 11, 11, 0.719);
+    border-radius: 20px;
+    border-top-left-radius: 50px;
     padding: 20px 15px;
     display: none;
 }
